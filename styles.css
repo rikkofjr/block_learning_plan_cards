@@ -1,0 +1,49 @@
+.block_learning_plan_cards .competency-section {
+    margin-bottom: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #eef2f5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.block_learning_plan_cards .carousel-horizontal-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 10px 5px;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Menyembunyikan scrollbar kaku di Google Chrome, Safari, dan Opera */
+.block_learning_plan_cards .carousel-horizontal-container::-webkit-scrollbar {
+    display: none; 
+}
+
+/* Menyembunyikan scrollbar di Firefox dan IE/Edge */
+.block_learning_plan_cards .carousel-horizontal-container {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+.block_learning_plan_cards .course-card-item {
+    min-width: 290px;
+    max-width: 290px;
+    flex: 0 0 auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.block_learning_plan_cards .course-card-item:hover {
+    transform: translateY(-2px);
+}
+
+.block_learning_plan_cards .course-card-img {
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
